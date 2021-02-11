@@ -9,7 +9,7 @@ let package = Package(
   products: [
     .library(
       name: "RiMovieCore",
-      targets: ["RiMovieCore"]),
+      targets: ["RiMovieCore"])
   ],
   dependencies: [
     // Dependencies declare other packages that this package depends on.
@@ -21,6 +21,6 @@ let package = Package(
       dependencies: []),
     .testTarget(
       name: "RiMovieCoreTests",
-      dependencies: ["RiMovieCore"]),
+      dependencies: ["RiMovieCore"])
   ]
 )
